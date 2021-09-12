@@ -26,4 +26,4 @@ def process_input(request_data: str):
                                                 "LSTAT", 
                                                 "TARGET"])
 
-    return data
+    return data.values
