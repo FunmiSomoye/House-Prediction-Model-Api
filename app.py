@@ -21,7 +21,7 @@ def home() -> str:
     """
     return ("""Welcome to Funmi Somoye's house price prediction API. This API has only one useful endpoint \n
               Predict House prices via the endpoint using a POST request.\n 
-              Inputs should be a list of 13 numbers"""), 200
+              Inputs should be a dictionary of 13 numbers"""), 200
 
 
 # CREATING ROUTE FOR MODEL PREDICTION
