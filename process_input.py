@@ -11,9 +11,7 @@ def process_input(request_data: str) -> pd.DataFrame:
     """
     
     parsed_body = json.loads(request_data)["inputs"]
-    
     assert len(parsed_body) >= 1 #"'inputs' must be a dictionary (or dictionaries) with 13 features"
-
     data = {"CRIM": [], 
                      "ZN": [],
                      "INDUS": [],
