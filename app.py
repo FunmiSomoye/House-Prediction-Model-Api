@@ -5,10 +5,7 @@ from process_input import process_input
 import numpy as np
 
 
-# DEFINING PATH TO THE SAVED MODEL'S .pkl FILE
 SAVED_MODEL_PATH = "classifier.pkl"
-
-# LOADING THE CLASSIFIER FROM FILE
 classifier = pickle.load(open(SAVED_MODEL_PATH, "rb"))
 
 app = Flask(__name__)
@@ -23,8 +20,6 @@ def home() -> str:
               Predict House prices via the endpoint using a POST request.\n 
               Inputs should be a dictionary of 13 numbers"""), 200
 
-
-# CREATING ROUTE FOR MODEL PREDICTION
 @app.route("/predict", methods=['POST'])
 def predict() -> str:
     """
