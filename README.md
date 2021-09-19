@@ -24,7 +24,7 @@ sucesss response
 
 
 ## Example Payload
-Calling the endpoint `/api/predict/` with a 2x2 array. 
+Calling the endpoint `/predict` with a 2x2 array. 
 ``` javascript
 import requests
 import json
