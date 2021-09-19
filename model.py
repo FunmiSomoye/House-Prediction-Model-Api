@@ -8,8 +8,5 @@ X_train, X_test, y_train, y_test = train_test_split(data.data, data.target)
 clf = GradientBoostingRegressor()
 clf.fit(X_train, y_train)
 
-
-
-# TO SAVE MODEL TO FILE
 with open("classifier.pkl", "wb") as file:
     pickle.dump(clf, file)
