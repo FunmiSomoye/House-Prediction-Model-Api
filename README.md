@@ -11,7 +11,7 @@ The API can be found on [Funmi's House Prediction Api](https://funmi-house-price
 
 The endpoint `/predict` accepts payload of the following structure.
 ``` http
-POST /api/predict/
+POST /predict
 ```
 |Parameter |  Type                  |  Description           |
 |----------|:----------------------:|-----------------------:|
