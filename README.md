@@ -1,5 +1,7 @@
 # House-Prediction-Model-Api
 
+### <ins>Important Update</ins>: Heroku no longer offers a free tier and as such, this project which was originally hosted in Heroku is no longer active.
+
 ## Description
 This project is about creating an endpoint that predicts house prices based on inputed features
 
